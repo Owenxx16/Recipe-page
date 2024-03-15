@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Young Serif';
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(30, 54%, 90%);
+  min-height: 140vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit',sans-serif;
+  font-size: 16px;
+}
+.container{
+  width: 570px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex; 
+  justify-content: center;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 2rem 2rem 2.5rem;
+  margin: 3rem auto 2rem;
+  text-align: left;
+}
+.container img{
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.lec h1{
+  font-family: 'Young Serif',sans-serif;
+  font-weight: 400;
+}
+.lec p{
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 16px;
+}
+.pre{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding: 1rem 1rem 1.5rem;
+  background-color:hsl(330, 100%, 98%);
+  border-radius: 5px;
+}
+.pre h3{
+  color: hsl(332, 51%, 32%);
+  margin-right: 2rem;
+  margin-bottom: 5px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.pre ul li{
+  margin-left: 2rem;
+  margin-top: 8px;
+  font-weight: 200;
+}
+.pre ul li::marker{
+  color: hsl(332, 51%, 32%);
+  margin-right: 1rem;
+}
+.pre strong{
+  margin-left: 0.5rem;
+  font-weight: 600;
+  opacity: .75;
+  font-family: 'Outfit',serif;
+}
+.ingre h2{
+  color:hsl(14, 45%, 36%) ;
+  margin-bottom: 20px;
+  font-family: 'Young Serif',sans-serif;
+  font-weight: 400;
+}
+.ingre ul {
+  margin-left: 1.25rem;
+  margin-bottom: 25px;
+}
+.ingre ul li::marker{
+  color: hsl(14, 45%, 36%);
+}
+.ingre strong{
+  font-family: 'Outfit',serif;
+}
+.ingre li p{
+  margin-left: 0.75rem;
+  margin-top: 7px;
+  font-weight: 200;
+}
+.instruct h2{
+  color: hsl(14, 45%, 36%);
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-family: 'Young Serif',sans-serif;
+  font-weight: 400;
+}
+.instruct ol{
+  margin-left: 1.22rem;
+  margin-bottom: 20px;
+}
+.instruct strong{
+  margin-left: 0.75rem;
+  font-weight: 500;
+  opacity: 0.75;
+}
+.instruct ol li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  font-family: 'Outfit',serif;
+}
+.instructions li {
+  padding: 0 2rem 0 3rem;
+}
+.instruct ol li{
+  margin-top: 15px;
+  font-weight: 200;
+  
+}
+.nutri h2{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+  font-family: 'Young Serif',sans-serif;
+  font-weight: 400;
+}
+.nutri p{
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+.haha{
+  display: inline-block;
+}
+.nutri .name-ingre{
+  margin-left: 1.2rem;
+}
+.nutri .number-ingre1,.number-ingre12,.number-ingre13,.number-ingre14{
+  color: hsl(14, 45%, 36%) ;
+}
+.nutri .hr-ha{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: hsl(0, 0%, 100%);
+  opacity: 0.4;
+}
+.name-ingre, .number-ingre1{
+  display: inline-flex;
+}
+.number-ingre1{
+  text-align: right;
+}
+table {
+  border-collapse: collapse;
+  width: 500px;
+  margin: 0 2rem;
+  align-self: center;
+}
+
+td {
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-weight: 200;
+}
+
+.remove td {
+  border-bottom: none;
+}
+
+.values {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  padding-right: 5rem;
+}
